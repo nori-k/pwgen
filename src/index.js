@@ -1,18 +1,3 @@
-/*
-const lowerStr = "abcdefghijklmnopqrstuvwxyz";
-const upperStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-const numberStr = "0123456789";
-const symbolStr = "!#$%&()-_";
-
-let string = lowerStr + upperStr + numberStr + symbolStr;
-let password;
-let len = 8;
-
-for (var i = 0; i < len; i++) {
-  password += string.charAt(Math.floor(Math.random() * string.length));
-}
-*/
-
 const resultEl = document.getElementById("result");
 const lengthEl = document.getElementById("length");
 const uppercaseEl = document.getElementById("uppercase");
